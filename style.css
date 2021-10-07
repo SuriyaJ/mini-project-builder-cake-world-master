@@ -1,151 +1,153 @@
-    @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .d1 {
-        background-color: rgba(133, 16, 16, 0.89);
-        height: 100px;
-    }
-    
-    .d2 {
-        padding-left: 590px;
-        padding-top: 40px;
-    }
-    
-    d2,
-    p {
-        padding-left: 45px;
-        font-weight: bold;
-        color: white;
-    }
-    
-    #d3 {
-        background-color: rgb(152, 21, 179);
-        height: 450px;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    #d3>#c1,
-    #c2,
-    #c3 {
-        padding-top: 70px;
-    }
-    
-    #d4 {
-        padding-top: 40px;
-        background-color: rgb(107, 12, 12);
-        height: 100px;
-        display: flex;
-        justify-content: space-around;
-        font-size: 50px;
-    }
-    
-    #d4>#child6>#b6 {
-        background-color: chartreuse;
-        width: 50px;
-        border: none;
-        height: 30px;
-        font-size: 15px;
-        font-weight: bold;
-        color: rgb(14, 13, 13);
-    }
-    
-    #d4>#b2,
-    #b2,
-    #b3,
-    #b4,
-    #b5,
-    #b1 {
-        background-color: rgb(148, 22, 148);
-        border-radius: 10px;
-        width: 100px;
-        border: none;
-        height: 30px;
-        font-size: 15px;
-        font-weight: bold;
-        color: white;
-    }
-    
-    #c2 {
-        padding-top: 200px;
-    }
-    
-    #c2>#layer0,
-    #layer1,
-    #layer2,
-    #layer3,
-    #layer4,
-    #layer5 {
-        border-radius: 15%;
-        height: 5vh;
-        padding: 0;
-    }
-    
-    #c2,
-    #layer0 {
-        height: 2px;
-    }
-    
-    #layer1 {
-        width: 12vh;
-        background-color: rgb(231, 151, 3);
-        margin-left: 60px;
-    }
-    
-    #layer2 {
-        width: 17vh;
-        background-color: rgb(224, 32, 32);
-        margin-left: 43px;
-    }
-    
-    #layer3 {
-        width: 22vh;
-        background-color: rgb(255, 255, 255);
-        margin-left: 30px;
-    }
-    
-    #layer4 {
-        width: 27vh;
-        background-color: rgb(255, 255, 0);
-        margin-left: 14px;
-    }
-    
-    #layer5 {
-        width: 32vh;
-        background-color: rgb(248, 10, 169);
-    }
-    /* Fill your code
-    
-    #layer1 {
-        width: 245px;
-        visibility: hidden;
-    }
-    
-    #layer2 {
-        width: 200px;
-        left: 40px;
-        visibility: hidden;
-    }
-    
-    #layer3 {
-        width: 160px;
-        left: 60px;
-        visibility: hidden;
-    }
-    
-    #layer4 {
-        width: 120px;
-        left: 80px;
-        visibility: hidden;
-    }
-    
-    #layer5 {
-        width: 80px;
-        left: 100px;
-        visibility: hidden;
-    }
+                @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                .d1 {
+                    background-color: rgba(133, 16, 16, 0.89);
+                    height: 100px;
+                }
+                
+                .d2 {
+                    padding-left: 550px;
+                    padding-top: 30px;
+                }
+                
+                d2,
+                #d21 {
+                    background-color: black;
+                    color: white;
+                    border: solid rgb(199, 13, 13);
+                    border-radius: 50%;
+                    width: 40vh;
+                    height: 25vh;
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 130%;
+                }
+                
+                #candle img {
+                    height: 8vh;
+                    padding: 0;
+                    position: relative;
+                    top: 30%;
+                    left: 70px;
+                }
+                
+                #d3 {
+                    background-color: rgb(152, 21, 179);
+                    height: 450px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .pricelist {
+                    position: absolute;
+                    top: 37%;
+                    font-size: 19px;
+                    color: white;
+                    padding-left: 65px;
+                }
+                
+                #d3>#c1,
+                #c2,
+                #c3 {
+                    padding-top: 70px;
+                }
+                
+                #d4 {
+                    padding-top: 40px;
+                    background-color: rgb(107, 12, 12);
+                    height: 100px;
+                    display: flex;
+                    justify-content: space-around;
+                    font-size: 50px;
+                }
+                
+                #d4>#child6>#b6 {
+                    background-color: chartreuse;
+                    width: 50px;
+                    border: none;
+                    height: 30px;
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: rgb(14, 13, 13);
+                    border-style: double;
+                    border-color: black;
+                    border-radius: 15%;
+                }
+                
+                #d4>#b1,
+                #b1,
+                #b2,
+                #b3,
+                #b4,
+                #b5 {
+                    background-color: rgb(148, 22, 148);
+                    border-radius: 10px;
+                    width: 100px;
+                    border: none;
+                    height: 30px;
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: white;
+                }
+                
+                #c2 {
+                    padding-top: 170px;
+                }
+                
+                #c2>#layer0,
+                #layer1,
+                #layer2,
+                #layer3,
+                #layer4,
+                #layer5 {
+                    border-radius: 15%;
+                    height: 5vh;
+                }
+                
+                #layer1 {
+                    width: 12vh;
+                    background-color: rgb(231, 151, 3);
+                    margin-left: 60px;
+                }
+                
+                #layer2 {
+                    width: 17vh;
+                    background-color: rgb(224, 32, 32);
+                    margin-left: 43px;
+                }
+                
+                #layer3 {
+                    width: 22vh;
+                    background-color: rgb(255, 255, 255);
+                    margin-left: 30px;
+                }
+                
+                #layer4 {
+                    width: 27vh;
+                    background-color: rgb(255, 255, 0);
+                    margin-left: 14px;
+                }
+                
+                #layer5 {
+                    width: 32vh;
+                    background-color: rgb(248, 10, 169);
+                }
+                
+                #d4 :focus {
+                    font-size: 20px;
+                    width: 150px;
+                }
+                
+                #d4>#child6>#b6:focus {
+                    font-size: 20px;
+                    width: 70px;
+                }
