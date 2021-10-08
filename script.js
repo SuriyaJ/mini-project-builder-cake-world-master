@@ -25,7 +25,6 @@ function renderAll() {
     rendervanilla();
     renderredvelvet();
     renderPrice();
-    // renderbuy();
 }
 
 //chocolate
@@ -86,15 +85,7 @@ function renderredvelvet() {
         pricelist[4].innerHTML = "";
     }
 }
-/*
-function renderbuy() {
-    let buy = document.querySelector("#cdl");
-    if (!state.Buy) {
-        buy.style.display = "none";
-    } else {
-        buy.style.display = "inherit"
-    }
-}*/
+
 
 let buy = document.querySelector("#cdl");
 
